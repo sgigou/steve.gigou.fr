@@ -37,65 +37,63 @@ $color-text-black-light: rgba(0,0,0,.50);
 // General
 
 body {
-  color: $color-text-black-light;
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
   font-size: $size-font-3;
   text-align: center;
+}
+body.light {
+  background: $color-bg-light;
+  color: $color-text-black-light;
+}
 
-  h1 {
-    font-size: $size-font-1;
-    margin: 64px 0 32px;
-  }
-  p.subtitle {
-    font-size: $size-font-2;
-    margin: 32px 0;
+h1 {
+  color: $color-text-black-dark;
+  font-size: $size-font-1;
+  margin: 64px 0 32px;
+}
+
+p.subtitle {
+  font-size: $size-font-2;
+  margin: 32px 0;
+}
+
+a {
+  color: $color-blue;
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+header {
+  border-bottom: 1px solid $color-separator-black;
+  font-weight: bold;
+  line-height: 48px;
+  @media screen and (min-width: $media-desktop-min) {
+    padding: 0 !important;
   }
   a {
-    color: $color-blue;
-    text-decoration: none;
-    &:hover { text-decoration: underline; }
+    color: $color-text-black-light;
+    @include transition(.25s);
+    &:hover {
+      color: $color-text-black-dark;
+    }
   }
   em {
     font-style: normal;
-    font-weight: bold;
-  }
-
-  header {
-    line-height: 48px;
-    @media screen and (min-width: $media-desktop-min) {
-      padding: 0 !important;
-    }
-    a {
-      font-weight: bold;
-    }
-    em {
-      font-style: normal;
-      font-weight: 500;
-    }
-  }
-  intro {
-    margin-top: 64px; margin-bottom: 64px;
+    font-weight: 500;
   }
 }
 
-// Light
+// Classes
 
-body.light {
-    background: $color-bg-light;
-  h1 {
-    color: $color-text-black-dark;
-  }
-  header {
-    border-bottom: 1px solid $color-separator-black;
-    color: $color-text-black-light;
-    a {
-      color: $color-text-black-light;
-      @include transition(.25s);
-      &:hover {
-        color: $color-text-black-dark;
-      }
-    }
-    .left { float: left; }
-    .right { float: right; }
-  }
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }

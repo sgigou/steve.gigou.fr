@@ -958,54 +958,54 @@ svg {
     clear: both;
     width: 100%; } }
 body {
-  color: rgba(0, 0, 0, 0.5);
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
   font-size: 18px;
   text-align: center; }
-  body h1 {
-    font-size: 40px;
-    margin: 64px 0 32px; }
-  body p.subtitle {
-    font-size: 30px;
-    margin: 32px 0; }
-  body a {
-    color: #007aff;
-    text-decoration: none; }
-    body a:hover {
-      text-decoration: underline; }
-  body em {
-    font-style: normal;
-    font-weight: bold; }
-  body header {
-    line-height: 48px; }
-    @media screen and (min-width: 768px) {
-      body header {
-        padding: 0 !important; } }
-    body header a {
-      font-weight: bold; }
-    body header em {
-      font-style: normal;
-      font-weight: 500; }
-  body intro {
-    margin-top: 64px;
-    margin-bottom: 64px; }
 
 body.light {
-  background: #F2F5F7; }
-  body.light h1 {
-    color: rgba(0, 0, 0, 0.75); }
-  body.light header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-    color: rgba(0, 0, 0, 0.5); }
-    body.light header a {
-      color: rgba(0, 0, 0, 0.5);
-      -moz-transition: 0.25s;
-      -o-transition: 0.25s;
-      -webkit-transition: 0.25s;
-      transition: 0.25s; }
-      body.light header a:hover {
-        color: rgba(0, 0, 0, 0.75); }
-    body.light header .left {
-      float: left; }
-    body.light header .right {
-      float: right; }
+  background: #F2F5F7;
+  color: rgba(0, 0, 0, 0.5); }
+
+h1 {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 40px;
+  margin: 64px 0 32px; }
+
+p.subtitle {
+  font-size: 30px;
+  margin: 32px 0; }
+
+a {
+  color: #007aff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+em {
+  font-style: normal;
+  font-weight: bold; }
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  line-height: 48px; }
+  @media screen and (min-width: 768px) {
+    header {
+      padding: 0 !important; } }
+  header a {
+    color: rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    -webkit-transition: 0.25s;
+    transition: 0.25s; }
+    header a:hover {
+      color: rgba(0, 0, 0, 0.75); }
+  header em {
+    font-style: normal;
+    font-weight: 500; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
