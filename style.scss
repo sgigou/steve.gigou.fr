@@ -1,0 +1,68 @@
+/* Scss Document */
+
+$unsemantic-ie7-support: false;
+$container-max-width: 960px;
+$gutter-half: 16px;
+
+@import "unsemantic/reset.scss";
+@import "unsemantic/unsemantic-grid-responsive";
+
+$color-bg-light: #F2F5F7;
+$color-separator-black: rgba(0,0,0,.25);
+$color-text-black-light: rgba(0,0,0,.50);
+
+// Mixins
+
+@mixin transition($transition...) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform($transform...) {
+	-webkit-transform: $transform;
+    -moz-transform: $transform;
+    -o-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+// General
+
+body {
+  font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  line-height: 1.4em;
+
+  h1 { font-size: 40px; }
+
+  header {
+    line-height: 48px;
+    @media screen and (min-width: $media-desktop-min) {
+      padding: 0 !important;
+    }
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+    em {
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+}
+
+// Light
+
+body.light {
+    background: $color-bg-light;
+    header {
+        border-bottom: 1px solid $color-separator-black;
+        color: $color-text-black-light;
+        a { color: $color-text-black-light; }
+        .left { float: left; }
+        .right { float: right; }
+    }
+}
