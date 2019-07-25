@@ -960,7 +960,8 @@ svg {
 body {
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
   font-size: 18px;
-  text-align: center; }
+  text-align: center;
+  line-height: 28px; }
 
 body.light {
   background: #F2F5F7;
@@ -969,20 +970,33 @@ body.light {
 h1 {
   color: rgba(0, 0, 0, 0.75);
   font-size: 40px;
+  line-height: 56px;
   margin: 64px 0 32px; }
+  h1.white {
+    color: #FFF; }
 
 h2 {
   color: rgba(0, 0, 0, 0.75);
   font-size: 30px;
+  line-height: 40px;
   margin: 32px 0; }
+  h2.white {
+    color: #FFF; }
 
 h3 {
   color: rgba(0, 0, 0, 0.75);
   font-size: 18px;
+  line-height: 28px;
   margin: 16px 0; }
+  h3.white {
+    color: #FFF; }
+
+p.white {
+  color: rgba(255, 255, 255, 0.75); }
 
 p.subtitle {
   font-size: 30px;
+  line-height: 40px;
   margin: 32px 0; }
 
 a {
@@ -993,7 +1007,7 @@ a {
   -webkit-transition: 0.25s;
   transition: 0.25s; }
   a:hover {
-    color: #007aff;
+    color: #007AFF;
     text-decoration: underline; }
 
 em {
@@ -1004,7 +1018,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   font-weight: bold;
   line-height: 48px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 896px) {
     header {
       padding: 0 !important; } }
   header a {
@@ -1023,11 +1037,17 @@ header {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   margin-top: 32px;
   margin-bottom: 32px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 896px) {
     .block {
       border-radius: 5px; } }
   .block-white {
-    background-color: white; }
+    background: white; }
+  .block-blue {
+    background: #007AFF; }
+
+img.full-width {
+  width: 100%;
+  height: auto; }
 
 .left {
   float: left; }

@@ -1,21 +1,30 @@
 /* Scss Document */
 
+$size-page-width: 896px;
+
 $unsemantic-ie7-support: false;
-$container-max-width: 896px;
+$container-max-width: $size-page-width;
 $gutter-half: 16px;
 
 @import "unsemantic/reset.scss";
 @import "unsemantic/unsemantic-grid-responsive";
 
 $size-font-1: 40px;
+$size-lh-1: 56px;
 $size-font-2: 30px;
+$size-lh-2: 40px;
 $size-font-3: 18px;
-$color-blue: #007aff;
-$color-orange: #ff9500;
+$size-lh-3: 28px;
+
+$color-blue: #007AFF;
+$color-orange: #FF9500;
+$color-purple: #AF52DE;
 $color-bg-light: #F2F5F7;
 $color-separator-black: rgba(0,0,0,.25);
 $color-text-black-dark: rgba(0,0,0,.75);
 $color-text-black-light: rgba(0,0,0,.50);
+$color-text-white-dark: #FFF;
+$color-text-white-light: rgba(255,255,255,.75);
 
 // Mixins
 
@@ -40,6 +49,7 @@ body {
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
   font-size: $size-font-3;
   text-align: center;
+  line-height: $size-lh-3;
 }
 body.light {
   background: $color-bg-light;
@@ -49,21 +59,37 @@ body.light {
 h1 {
   color: $color-text-black-dark;
   font-size: $size-font-1;
+  line-height: $size-lh-1;
   margin: 64px 0 32px;
+  &.white {
+    color: $color-text-white-dark;
+  }
 }
 h2 {
   color: $color-text-black-dark;
   font-size: $size-font-2;
+  line-height: $size-lh-2;
   margin: 32px 0;
+  &.white {
+    color: $color-text-white-dark;
+  }
 }
 h3 {
   color: $color-text-black-dark;
   font-size: $size-font-3;
+  line-height: $size-lh-3;
   margin: 16px 0;
+  &.white {
+    color: $color-text-white-dark;
+  }
 }
 
+p.white {
+  color: $color-text-white-light;
+}
 p.subtitle {
   font-size: $size-font-2;
+  line-height: $size-lh-2;
   margin: 32px 0;
 }
 
@@ -86,8 +112,8 @@ header {
   border-bottom: 1px solid $color-separator-black;
   font-weight: bold;
   line-height: 48px;
-  @media screen and (min-width: $media-desktop-min) {
-    padding: 0 !important;
+  @media screen and (min-width: $size-page-width) {
+    padding: 0 !important; 
   }
   a {
     color: $color-text-black-light;
@@ -107,13 +133,21 @@ header {
 .block {
   box-shadow: 0 1px 2px rgba(0,0,0,.25);
   margin-top: 32px; margin-bottom: 32px;
-  @media screen and (min-width: $media-desktop-min) {
+  @media screen and (min-width: $size-page-width) {
     border-radius: 5px;
   }
   
   &-white {
-    background-color: white;
+    background: white;
   }
+  &-blue {
+    background: $color-blue;
+  }
+}
+
+img.full-width {
+  width: 100%;
+  height: auto;
 }
 
 .left {
