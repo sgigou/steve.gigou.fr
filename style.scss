@@ -83,6 +83,11 @@ h3 {
     color: $color-text-white-dark;
   }
 }
+h4 {
+  color: $color-text-black-light;
+  font-size: $size-font-3;
+  line-height: $size-lh-3;
+}
 
 p.white {
   color: $color-text-white-light;
@@ -125,6 +130,18 @@ header {
   em {
     font-style: normal;
     font-weight: 500;
+  }
+}
+
+footer {
+  border-top: 1px solid $color-separator-black;
+  font-size: 16px !important;
+  line-height: 22px;
+  padding-top: 16px; padding-bottom: 16px;
+  .list {
+    @media screen and (min-width: $media-mobile-max) {
+      text-align: left
+    }
   }
 }
 
@@ -194,6 +211,10 @@ img.full-width {
 
 .right {
   float: right;
+}
+
+.text-left {
+  text-align: left;
 }
 
 @for $i from 0 through 10 {
