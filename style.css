@@ -1059,6 +1059,8 @@ header {
     background: white; }
   .block-blue {
     background: #007AFF; }
+  .block-purple {
+    background: #AF52DE; }
 
 a.button-app {
   display: inline-block;
