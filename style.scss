@@ -196,7 +196,7 @@ img.full-width {
   float: right;
 }
 
-@for $i from 1 through 10 {
+@for $i from 0 through 10 {
   $num: $i * 8;
   $size: $num * 1px;
   
@@ -205,5 +205,21 @@ img.full-width {
   }
   .margin-bottom-#{$num} {
     margin-bottom: $size;
+  }
+}
+
+@for $i from 0 through 10 {
+  $num: $i * 8;
+  $size: $num * 1px;
+  
+  .mobile-margin-top-#{$num} {
+    @media screen and (max-width: $media-mobile-max) {
+      margin-top: $size;
+    }
+  }
+  .mobile-margin-bottom-#{$num} {
+    @media screen and (max-width: $media-mobile-max) {
+      margin-bottom: $size;
+    }
   }
 }

@@ -1084,6 +1084,12 @@ img.full-width {
 .right {
   float: right; }
 
+.margin-top-0 {
+  margin-top: 0px; }
+
+.margin-bottom-0 {
+  margin-bottom: 0px; }
+
 .margin-top-8 {
   margin-top: 8px; }
 
@@ -1143,3 +1149,91 @@ img.full-width {
 
 .margin-bottom-80 {
   margin-bottom: 80px; }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-0 {
+    margin-top: 0px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-0 {
+    margin-bottom: 0px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-8 {
+    margin-top: 8px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-8 {
+    margin-bottom: 8px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-16 {
+    margin-top: 16px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-16 {
+    margin-bottom: 16px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-24 {
+    margin-top: 24px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-24 {
+    margin-bottom: 24px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-32 {
+    margin-top: 32px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-32 {
+    margin-bottom: 32px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-40 {
+    margin-top: 40px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-40 {
+    margin-bottom: 40px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-48 {
+    margin-top: 48px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-48 {
+    margin-bottom: 48px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-56 {
+    margin-top: 56px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-56 {
+    margin-bottom: 56px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-64 {
+    margin-top: 64px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-64 {
+    margin-bottom: 64px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-72 {
+    margin-top: 72px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-72 {
+    margin-bottom: 72px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-top-80 {
+    margin-top: 80px; } }
+
+@media screen and (max-width: 767px) {
+  .mobile-margin-bottom-80 {
+    margin-bottom: 80px; } }
