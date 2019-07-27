@@ -1028,6 +1028,12 @@ header {
   @media screen and (min-width: 896px) {
     header {
       padding: 0 !important; } }
+  header.white {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+    header.white a {
+      color: rgba(255, 255, 255, 0.75); }
+      header.white a:hover {
+        color: #FFF; }
   header a {
     color: rgba(0, 0, 0, 0.5);
     -moz-transition: 0.25s;

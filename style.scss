@@ -23,6 +23,7 @@ $color-orange: #FF9500;
 $color-purple: #AF52DE;
 $color-bg-light: #F2F5F7;
 $color-separator-black: rgba(0,0,0,.25);
+$color-separator-white: rgba(255,255,255,.25);
 $color-text-black-dark: rgba(0,0,0,.75);
 $color-text-black-light: rgba(0,0,0,.50);
 $color-text-white-dark: #FFF;
@@ -125,6 +126,15 @@ header {
   line-height: 48px;
   @media screen and (min-width: $size-page-width) {
     padding: 0 !important;
+  }
+  &.white {
+    border-bottom: 1px solid $color-separator-white;
+    a {
+      color: $color-text-white-light;
+      &:hover {
+        color: $color-text-white-dark;
+      }
+    }
   }
   a {
     color: $color-text-black-light;
