@@ -9,6 +9,8 @@ $gutter-half: 16px;
 @import "unsemantic/reset.scss";
 @import "unsemantic/unsemantic-grid-responsive";
 
+// Vars
+
 $size-font-1: 40px;
 $size-lh-1: 56px;
 $size-font-2: 30px;
@@ -50,10 +52,14 @@ body {
   font-size: $size-font-3;
   text-align: center;
   line-height: $size-lh-3;
-}
-body.light {
+  &.light {
   background: $color-bg-light;
   color: $color-text-black-light;
+  }
+  &.blue {
+    background: $color-blue;
+    color: $color-text-white-light;
+  }
 }
 
 h1 {
