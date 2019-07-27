@@ -1063,6 +1063,12 @@ footer {
     font-weight: normal;
     color: rgba(255, 255, 255, 0.75); }
 
+.app_title-page {
+  line-height: 56px;
+  max-height: 56px; }
+  .app_title-page span {
+    font-size: 30px; }
+
 .dl-buttons {
   margin-top: 24px;
   margin-bottom: 56px; }

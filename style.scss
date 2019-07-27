@@ -171,6 +171,13 @@ footer {
     color: $color-text-white-light;
   }
 }
+.app_title-page {
+  line-height: 56px;
+  max-height: 56px;
+  span {
+    font-size: $size-font-2;
+  }
+}
 
 .dl-buttons {
   margin-top: 32px - 8;
