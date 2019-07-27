@@ -961,13 +961,12 @@ body {
   font-family: "Helvetica Neue", Roboto, Helvetica, Arial, "sans-serif";
   font-size: 18px;
   text-align: center;
-  line-height: 28px; }
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.5); }
   body.light {
-    background: #F2F5F7;
-    color: rgba(0, 0, 0, 0.5); }
+    background: #F2F5F7; }
   body.blue {
-    background: #007AFF;
-    color: rgba(255, 255, 255, 0.75); }
+    background: #007AFF; }
 
 h1 {
   color: rgba(0, 0, 0, 0.75);

@@ -53,13 +53,12 @@ body {
   font-size: $size-font-3;
   text-align: center;
   line-height: $size-lh-3;
-  &.light {
-  background: $color-bg-light;
   color: $color-text-black-light;
+  &.light {
+    background: $color-bg-light;
   }
   &.blue {
     background: $color-blue;
-    color: $color-text-white-light;
   }
 }
 
