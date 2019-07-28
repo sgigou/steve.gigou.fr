@@ -1072,8 +1072,7 @@ footer {
     color: rgba(0, 0, 0, 0.5); }
 
 .app_title-page {
-  line-height: 56px;
-  max-height: 56px; }
+  line-height: 56px; }
   .app_title-page span {
     font-size: 30px; }
 
