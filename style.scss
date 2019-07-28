@@ -213,6 +213,9 @@ footer {
     list-style-type: circle;
     margin-left: 32px;
   }
+  p:not(:last-child), ul:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
 
 // Classes
