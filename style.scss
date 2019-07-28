@@ -101,7 +101,7 @@ h4 {
 p.white {
   color: $color-text-white-light;
 }
-p.subtitle {
+.subtitle {
   font-size: $size-font-2;
   line-height: $size-lh-2;
   margin-bottom: 32px;
@@ -180,7 +180,7 @@ footer {
   span {
     font-size: $size-font-3;
     font-weight: normal;
-    color: $color-text-white-light;
+    color: $color-text-black-light;
   }
 }
 .app_title-page {
@@ -190,6 +190,9 @@ footer {
     font-size: $size-font-2;
   }
 }
+.app_title .white span {
+  color: $color-text-white-light;
+}
 
 .dl-buttons {
   margin-top: 32px - 8;
@@ -198,6 +201,17 @@ footer {
     display: inline-block;
     margin: 8px 16px;
     line-height: 40px;
+  }
+}
+
+.text-block {
+  text-align: left;
+  h2 {
+    margin-bottom: 16px;
+  }
+  li {
+    list-style-type: circle;
+    margin-left: 32px;
   }
 }
 

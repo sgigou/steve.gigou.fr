@@ -1002,7 +1002,7 @@ h4 {
 p.white {
   color: rgba(255, 255, 255, 0.75); }
 
-p.subtitle {
+.subtitle {
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 32px; }
@@ -1069,13 +1069,16 @@ footer {
   .app_title span {
     font-size: 18px;
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.75); }
+    color: rgba(0, 0, 0, 0.5); }
 
 .app_title-page {
   line-height: 56px;
   max-height: 56px; }
   .app_title-page span {
     font-size: 30px; }
+
+.app_title .white span {
+  color: rgba(255, 255, 255, 0.75); }
 
 .dl-buttons {
   margin-top: 24px;
@@ -1084,6 +1087,14 @@ footer {
     display: inline-block;
     margin: 8px 16px;
     line-height: 40px; }
+
+.text-block {
+  text-align: left; }
+  .text-block h2 {
+    margin-bottom: 16px; }
+  .text-block li {
+    list-style-type: circle;
+    margin-left: 32px; }
 
 .block {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
