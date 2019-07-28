@@ -93,6 +93,9 @@ h4 {
   color: $color-text-black-light;
   font-size: $size-font-3;
   line-height: $size-lh-3;
+  &.white {
+    color: $color-text-white-dark;
+  }
 }
 
 p.white {
@@ -153,6 +156,16 @@ footer {
   font-size: 16px !important;
   line-height: 22px;
   padding-top: 16px; padding-bottom: 16px;
+  &.white {
+    border-top: 1px solid $color-separator-white;
+    color: $color-text-white-light;
+    a {
+      color: $color-text-white-light;
+      &:hover {
+        color: $color-text-white-dark;
+      }
+    }
+  }
   .list {
     @media screen and (min-width: $media-mobile-max) {
       text-align: left
