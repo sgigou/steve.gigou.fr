@@ -5,6 +5,7 @@
   <title>RPLife</title>
   <link href="style.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 <body class="blue">
   
@@ -139,6 +140,23 @@
       © Steve Gigou — 2019
     </div>
   </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#ffffff",
+        "text": "#3d3d3e"
+      },
+      "button": {
+        "background": "#007aff",
+        "text": "#ffffff"
+      }
+    },
+    "theme": "classic"
+  });
+  </script>
   
 </body>
 </html>
