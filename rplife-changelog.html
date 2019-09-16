@@ -110,7 +110,7 @@
       </div>
       <div class="grid-33 list">
         <h4>Follow RPLife</h4>
-        <p><a href="https://apps.apple.com/us/app/rplife/id1468074490">App Store</a></p>
+        <p><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife">App Store</a></p>
         <p><a href="https://www.facebook.com/RPLifeApp">Facebook</a></p>
       </div>
       <div class="grid-33 list">
@@ -139,6 +139,16 @@
     },
     "theme": "classic"
   });
+  </script>
+  
+  <script type="text/javascript">
+    var rplifeButtons = document.getElementsByClassName('appstore-rplife');
+    var i;
+    for (i = 0; i < rplifeButtons.length; i++) {
+      rplifeButtons[i].addEventListener('click', function() {
+        fbq('trackCustom', 'AppStoreClick', {app: 'rplife'});
+      }, false);
+    }
   </script>
   
 </body>

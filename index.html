@@ -67,7 +67,7 @@
       <p class="white">Evaluate your skills like in an RPG.<br>
       Execute IRL tasks and watch your life improve.</p>
       <div class="dl-buttons mobile-margin-bottom-32">
-        <a href="rplife.html" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
+        <a href="rplife.html" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
       </div>
     </div>
     <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
@@ -169,6 +169,16 @@
     },
     "theme": "classic"
   });
+  </script>
+  
+  <script type="text/javascript">
+    var rplifeButtons = document.getElementsByClassName('appstore-rplife');
+    var i;
+    for (i = 0; i < rplifeButtons.length; i++) {
+      rplifeButtons[i].addEventListener('click', function() {
+        fbq('trackCustom', 'AppStoreClick', {app: 'rplife'});
+      }, false);
+    }
   </script>
     
 </body>
