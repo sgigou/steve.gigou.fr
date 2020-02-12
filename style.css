@@ -1031,7 +1031,8 @@ header {
     header {
       padding: 0 !important; } }
   header.white {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.75); }
     header.white a {
       color: rgba(255, 255, 255, 0.75); }
       header.white a:hover {
@@ -1047,6 +1048,8 @@ header {
   header em {
     font-style: normal;
     font-weight: 500; }
+  header .right a {
+    margin-left: 10px; }
 
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.25);

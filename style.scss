@@ -132,6 +132,7 @@ header {
   }
   &.white {
     border-bottom: 1px solid $color-separator-white;
+    color: $color-text-white-light;
     a {
       color: $color-text-white-light;
       &:hover {
@@ -150,6 +151,7 @@ header {
     font-style: normal;
     font-weight: 500;
   }
+  .right a { margin-left: 10px; }
 }
 
 footer {
