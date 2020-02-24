@@ -130,16 +130,6 @@ header {
   @media screen and (min-width: $size-page-width) {
     padding: 0 !important;
   }
-  &.white {
-    border-bottom: 1px solid $color-separator-white;
-    color: $color-text-white-light;
-    a {
-      color: $color-text-white-light;
-      &:hover {
-        color: $color-text-white-dark;
-      }
-    }
-  }
   a {
     color: $color-text-black-light;
     @include transition(.25s);
@@ -152,6 +142,16 @@ header {
     font-weight: 500;
   }
   .right a { margin-left: 10px; }
+  .blue & {
+    border-bottom: 1px solid $color-separator-white;
+    color: $color-text-white-light;
+    a {
+      color: $color-text-white-light;
+      &:hover {
+        color: $color-text-white-dark;
+      }
+    }
+  }
 }
 
 footer {

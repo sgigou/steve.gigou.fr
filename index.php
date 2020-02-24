@@ -7,16 +7,10 @@
 </head>
 
 <body class="light">
-    
-  <header class="grid-container">
-    <div class="left">
-      <a href="#"><em>Steve</em> Gigou</a>
-    </div>
-    <div class="right">
-      <a href="rplife.php">RPLife</a>
-      <a href="https://sgigou.github.io">Blog</a>
-    </div>
-  </header>
+  
+  <?php
+    include('header.php')
+  ?>
   
   <div class="grid-container margin-top-64 margin-bottom-64">
     <h1>Hi, I'm Steve!</h1>

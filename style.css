@@ -1030,13 +1030,6 @@ header {
   @media screen and (min-width: 896px) {
     header {
       padding: 0 !important; } }
-  header.white {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
-    color: rgba(255, 255, 255, 0.75); }
-    header.white a {
-      color: rgba(255, 255, 255, 0.75); }
-      header.white a:hover {
-        color: #FFF; }
   header a {
     color: rgba(0, 0, 0, 0.5);
     -moz-transition: 0.25s;
@@ -1050,6 +1043,13 @@ header {
     font-weight: 500; }
   header .right a {
     margin-left: 10px; }
+  .blue header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.75); }
+    .blue header a {
+      color: rgba(255, 255, 255, 0.75); }
+      .blue header a:hover {
+        color: #FFF; }
 
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.25);
