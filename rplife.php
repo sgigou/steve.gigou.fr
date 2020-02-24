@@ -2,6 +2,7 @@
 <html>
   
 <head>
+  <meta charset="utf-8">
   <?php include('head.php') ?>
   <title>RPLife</title>
 </head>

@@ -2,6 +2,7 @@
 <html>
     
 <head>
+  <meta charset="utf-8">
   <?php include('head.php') ?>
   <title>Steve Gigou</title>
 </head>
@@ -13,7 +14,7 @@
   ?>
   
   <div class="grid-container margin-top-64 margin-bottom-64">
-    <h1>Hi, I'm Steve!</h1>
+    <h1>Hi, I’m Steve!</h1>
     <p class="subtitle">
       I create apps for iOS that are<br>
       <strong>affordable</strong> and crafted for <strong>your device</strong>.
