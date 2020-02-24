@@ -2,41 +2,8 @@
 <html>
     
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144085125-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-144085125-3');
-  </script>
-
-  <meta charset="UTF-8">
+  <?php include('head.php') ?>
   <title>Steve Gigou</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-  
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '484998702339594');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=484998702339594&ev=PageView&noscript=1"
-  /></noscript>
-<!-- End Facebook Pixel Code -->
-  
 </head>
 
 <body class="light">
@@ -46,7 +13,7 @@
       <a href="#"><em>Steve</em> Gigou</a>
     </div>
     <div class="right">
-      <a href="rplife.html">RPLife</a>
+      <a href="rplife.php">RPLife</a>
       <a href="https://sgigou.github.io">Blog</a>
     </div>
   </header>
@@ -65,7 +32,7 @@
       <img src="img/rplife-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px;">
     </div>
     <div class="grid-66">
-      <a href="rplife.html">
+      <a href="rplife.php">
         <div class="app_title margin-top-64">
           <h2 class="white">
             <img src="img/rplife-appicon-icon.png" alt="RPLife icon" width="48" height="48" style="transform: translateY(-2px);">
@@ -78,7 +45,7 @@
       <p class="white">Evaluate your skills like in an RPG.<br>
       Execute IRL tasks and watch your life improve.</p>
       <div class="dl-buttons mobile-margin-bottom-32">
-        <a href="rplife.html" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
+        <a href="rplife.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
       </div>
     </div>
     <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
