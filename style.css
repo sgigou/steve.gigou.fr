@@ -1057,16 +1057,18 @@ footer {
   line-height: 22px;
   padding-top: 16px;
   padding-bottom: 16px; }
-  footer.white {
-    border-top: 1px solid rgba(255, 255, 255, 0.25);
-    color: rgba(255, 255, 255, 0.75); }
-    footer.white a {
-      color: rgba(255, 255, 255, 0.75); }
-      footer.white a:hover {
-        color: #FFF; }
   @media screen and (min-width: 767px) {
     footer .list {
       text-align: left; } }
+  .blue footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    color: rgba(255, 255, 255, 0.75); }
+    .blue footer a {
+      color: rgba(255, 255, 255, 0.75); }
+      .blue footer a:hover {
+        color: #FFF; }
+    .blue footer h4 {
+      color: #FFF; }
 
 .cc-banner {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); }

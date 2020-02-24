@@ -159,7 +159,12 @@ footer {
   font-size: 16px !important;
   line-height: 22px;
   padding-top: 16px; padding-bottom: 16px;
-  &.white {
+  .list {
+    @media screen and (min-width: $media-mobile-max) {
+      text-align: left
+    }
+  }
+  .blue & {
     border-top: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -168,11 +173,7 @@ footer {
         color: $color-text-white-dark;
       }
     }
-  }
-  .list {
-    @media screen and (min-width: $media-mobile-max) {
-      text-align: left
-    }
+    h4 { color: $color-text-white-dark; }
   }
 }
 
