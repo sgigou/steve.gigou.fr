@@ -4,6 +4,7 @@
   </div>
   <div class="right">
     <a href="rplife.php">RPLife</a>
+    <a href="libs.php">Libs</a>
     <a href="https://sgigou.github.io">Blog</a>
   </div>
 </header>

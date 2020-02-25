@@ -16,8 +16,8 @@
   <div class="grid-container margin-top-64 margin-bottom-64">
     <h1>Hi, I’m Steve!</h1>
     <p class="subtitle">
-      I create apps for iOS that are<br>
-      <strong>affordable</strong> and crafted for <strong>your device</strong>.
+      I create apps for iOS that are <strong>affordable</strong><br>
+      and crafted for <strong>your device</strong>.
     </p>
     <a href="https://apps.apple.com/us/developer/steve-gigou/id849144018">Follow me on the App Store</a>
   </div>
