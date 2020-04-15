@@ -22,7 +22,8 @@
       <p><a href="https://www.linkedin.com/in/stevegigou">LinkedIn</a></p>
     </div>
   </div>
-  <div class="grid-100 margin-top-16">
-    © Steve Gigou — 2019
+  <div class="grid-parent grid-100 margin-top-16">
+    <div class="grid-75 mobile-grid-75 text-left">© Steve Gigou — 2019</div>
+    <div class="grid-25 mobile-grid-25 text-right"><?php echo($version) ?></div>
   </div>
 </footer>
