@@ -1152,6 +1152,9 @@ img.full-width {
 .text-left {
   text-align: left; }
 
+.text-right {
+  text-align: right; }
+
 .code {
   font-family: 'Inconsolata'; }
 
