@@ -22,6 +22,7 @@
     <a href="https://apps.apple.com/us/developer/steve-gigou/id849144018">Follow me on the App Store</a>
   </div>
   
+  <!-- RPLife -->
   <div class="grid-container block block-blue">
     <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 348px;">
       <img src="img/rplife-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px;">
@@ -48,7 +49,41 @@
     </div>
   </div>
   
+  <!-- Habitudes -->
+  <div class="grid-container block block-yellow">
+    <div class="grid-66">
+      <a href="rplife.php">
+        <div class="app_title margin-top-64">
+          <h2 class="white">
+            <img src="img/habitudes-icon@2x.png" alt="RPLife icon" width="48" height="48" style="transform: translateY(-2px);">
+            Habitudes
+            <span>for iPhone</span>
+          </h2>
+        </div>
+      </a>
+      <h3 class="white">We are what we repeatedly do</h3>
+      <p class="white">
+        Use the power of habits and routines<br>
+        to improve yourself every day.
+      </p>
+      <div class="dl-buttons mobile-margin-bottom-32">
+        <!-- TODO: Link -->
+        <a href="habitudes.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
+      </div>
+    </div>
+    <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 348px;">
+      <img src="img/habitudes-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; right: 16px ;">
+    </div>
+    <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
+      <img src="img/habitudes-home@2x.png" alt="RPLife capture" class="full-width">
+    </div>
+  </div>
+  
+  <!-- Soon -->
   <div class="grid-container block block-purple">
+    <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 268px;">
+      <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px ;">
+    </div>
     <div class="grid-66">
       <div class="app_title margin-top-64  margin-bottom-64 mobile-margin-bottom-32">
         <h2 class="white">
@@ -59,9 +94,6 @@
         <h3 class="white">Overwhelmed by household chores?</h3>
         <p class="white">There are good news for you coming soon…</p>
       </div>
-    </div>
-    <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 268px;">
-      <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; right: 16px ;">
     </div>
     <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
       <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width">
@@ -117,33 +149,7 @@
   </div>
     
   <?php include('footer-common.php') ?>
-  
-  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-  <script>
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#ffffff",
-        "text": "#3d3d3e"
-      },
-      "button": {
-        "background": "#007aff",
-        "text": "#ffffff"
-      }
-    },
-    "theme": "classic"
-  });
-  </script>
-  
-  <script type="text/javascript">
-    var rplifeButtons = document.getElementsByClassName('appstore-rplife');
-    var i;
-    for (i = 0; i < rplifeButtons.length; i++) {
-      rplifeButtons[i].addEventListener('click', function() {
-        fbq('trackCustom', 'AppStoreClick', {app: 'rplife'});
-      }, false);
-    }
-  </script>
+  <?php include('js.php') ?>
     
 </body>
     

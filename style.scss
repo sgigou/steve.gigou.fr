@@ -21,6 +21,7 @@ $size-lh-3: 28px;
 $color-blue: #007AFF;
 $color-orange: #FF9500;
 $color-purple: #AF52DE;
+$color-yellow: #FFCC01;
 $color-bg-light: #F2F5F7;
 $color-separator-black: rgba(0,0,0,.25);
 $color-separator-white: rgba(255,255,255,.25);
@@ -59,6 +60,9 @@ body {
   }
   &.blue {
     background: $color-blue;
+  }
+  &.yellow {
+    background: $color-yellow;
   }
 }
 
@@ -149,7 +153,7 @@ header {
     font-weight: 500;
   }
   .right a { margin-left: 10px; }
-  .blue & {
+  .blue &, .yellow & {
     border-bottom: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -171,7 +175,7 @@ footer {
       text-align: left
     }
   }
-  .blue & {
+  .blue &, .yellow & {
     border-top: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -249,6 +253,9 @@ footer {
   }
   &-purple {
     background: $color-purple;
+  }
+  &-yellow {
+    background: $color-yellow;
   }
 }
 

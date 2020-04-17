@@ -1,6 +1,6 @@
 <footer class="grid-container">
   <div class="grid-50 margin-bottom-16">
-    <p>© Steve Gigou — 2019</p>
+    <p>© Steve Gigou — 2020</p>
     <p><?php echo($version) ?></p>
   </div>
   <div class="grid-25 list margin-bottom-16">
