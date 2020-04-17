@@ -38,6 +38,25 @@
     </div>
   </div>
   
+  <!-- Routines -->
+  <div class="grid-container block block-white margin-top-0">
+    <div class="grid-33 hide-on-mobile margin-top-48 margin-bottom-32">
+      <img src="img/habitudes-page-routines@2x.png" alt="Habitudes capture" class="full-width">
+    </div>
+    <div class="grid-66 margin-top-64 margin-bottom-32">
+      <h2>Define your routines</h2>
+      <p>
+        Use the default routines,<br>
+        or create your own.<br>
+        <br>
+        Fine-tune your day.
+      </p>
+    </div>
+    <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop margin-bottom-32">
+      <img src="img/habitudes-page-routines@2x.png" alt="Habitudes capture" class="full-width">
+    </div>
+  </div>
+  
   <?php include('footer-rplife.php') ?>
   <?php include('js.php') ?>
   
