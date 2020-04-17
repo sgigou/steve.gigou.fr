@@ -1053,12 +1053,12 @@ header {
     font-weight: 500; }
   header .right a {
     margin-left: 10px; }
-  .blue header {
+  .blue header, .yellow header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     color: rgba(255, 255, 255, 0.75); }
-    .blue header a {
+    .blue header a, .yellow header a {
       color: rgba(255, 255, 255, 0.75); }
-      .blue header a:hover {
+      .blue header a:hover, .yellow header a:hover {
         color: #FFF; }
 
 footer {
@@ -1069,14 +1069,14 @@ footer {
   @media screen and (min-width: 767px) {
     footer .list {
       text-align: left; } }
-  .blue footer {
+  .blue footer, .yellow footer {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     color: rgba(255, 255, 255, 0.75); }
-    .blue footer a {
+    .blue footer a, .yellow footer a {
       color: rgba(255, 255, 255, 0.75); }
-      .blue footer a:hover {
+      .blue footer a:hover, .yellow footer a:hover {
         color: #FFF; }
-    .blue footer h4 {
+    .blue footer h4, .yellow footer h4 {
       color: #FFF; }
 
 .cc-banner {

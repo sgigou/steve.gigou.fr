@@ -95,6 +95,28 @@
     </div>
   </div>
   
+  <div class="grid-container block block-white">
+    <div class="grid-100 margin-top-64 margin-bottom-64">
+      <h2>Crafted for your iPhone</h2>
+      <h3>Fed up with ugly multiplatform apps?</h3>
+      <p class="margin-bottom-8">
+        Yes I am.<br>
+        Apps must be made carefully for your OS.<br>
+      </p>
+      <p>
+        Available in <em>english</em>.
+      </p>
+    </div>
+  </div>
+  
+  <div class="grid-container margin-top-64">
+    <h2 class="white">Get Habitudes for iPhone today</h2>
+    <div class="dl-buttons">
+      <!-- TODO: Links -->
+      <a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
+    </div>
+  </div>
+  
   <?php include('footer-rplife.php') ?>
   <?php include('js.php') ?>
   
