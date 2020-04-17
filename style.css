@@ -967,6 +967,8 @@ body {
     background: #F2F5F7; }
   body.blue {
     background: #007AFF; }
+  body.yellow {
+    background: #FFCC01; }
 
 h1 {
   color: rgba(0, 0, 0, 0.75);
