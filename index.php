@@ -52,7 +52,7 @@
   <!-- Habitudes -->
   <div class="grid-container block block-yellow">
     <div class="grid-66">
-      <a class="undecored" href="rplife.php">
+      <a class="undecored" href="habitudes.php">
         <div class="app_title margin-top-64">
           <h2 class="white">
             <img src="img/habitudes-icon@2x.png" alt="RPLife icon" width="48" height="48" style="transform: translateY(-2px);">

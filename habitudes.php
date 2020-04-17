@@ -117,7 +117,7 @@
     </div>
   </div>
   
-  <?php include('footer-rplife.php') ?>
+  <?php include('footer-habitudes.php') ?>
   <?php include('js.php') ?>
   
 </body>
