@@ -57,6 +57,25 @@
     </div>
   </div>
   
+  <!-- Habits -->
+  <div class="grid-container block block-white">
+    <div class="grid-66 margin-top-64 margin-bottom-32">
+      <h2>Set your habits</h2>
+      <p>
+        Keep track of every task<br>
+        you need to do every day.<br>
+        <br>
+        Never forget to exercise again.
+      </p>
+    </div>
+    <div class="grid-33 hide-on-mobile margin-top-48 margin-bottom-32">
+      <img src="img/habitudes-page-habits@2x.png" alt="Habitudes capture" class="full-width">
+    </div>
+    <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop margin-bottom-32">
+      <img src="img/habitudes-page-habits@2x.png" alt="Habitudes capture" class="full-width">
+    </div>
+  </div>
+  
   <?php include('footer-rplife.php') ?>
   <?php include('js.php') ?>
   
