@@ -28,7 +28,7 @@
       <img src="img/rplife-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px;">
     </div>
     <div class="grid-66">
-      <a href="rplife.php">
+      <a class="undecored" href="rplife.php">
         <div class="app_title margin-top-64">
           <h2 class="white">
             <img src="img/rplife-appicon-icon.png" alt="RPLife icon" width="48" height="48" style="transform: translateY(-2px);">
@@ -52,7 +52,7 @@
   <!-- Habitudes -->
   <div class="grid-container block block-yellow">
     <div class="grid-66">
-      <a href="rplife.php">
+      <a class="undecored" href="rplife.php">
         <div class="app_title margin-top-64">
           <h2 class="white">
             <img src="img/habitudes-icon@2x.png" alt="RPLife icon" width="48" height="48" style="transform: translateY(-2px);">

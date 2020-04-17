@@ -1028,6 +1028,8 @@ a {
     -webkit-transition: 0.25s;
     transition: 0.25s;
     fill: rgba(0, 122, 255, 0.75); }
+  a.undecored:hover {
+    text-decoration: none; }
 
 em {
   font-style: normal;

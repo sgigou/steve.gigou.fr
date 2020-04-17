@@ -127,6 +127,9 @@ a {
     @include transition(.25s);
     fill: rgba($color-blue, 0.75);
   }
+  &.undecored:hover {
+    text-decoration: none;
+  }
 }
 
 em {
