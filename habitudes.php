@@ -26,8 +26,7 @@
         to track your habits.
       </p>
       <div class="dl-buttons">
-        <!-- TODO: Link -->  
-        <a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
+        <a href="https://apps.apple.com/us/app/habitudes/id1500560167" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
       </div>
     </div>
     <div class="hide-on-mobile">
@@ -112,8 +111,7 @@
   <div class="grid-container margin-top-64">
     <h2 class="white">Get Habitudes for iPhone today</h2>
     <div class="dl-buttons">
-      <!-- TODO: Links -->
-      <a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
+      <a href="https://apps.apple.com/us/app/habitudes/id1500560167" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
     </div>
   </div>
   

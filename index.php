@@ -67,8 +67,7 @@
         to improve yourself every day.
       </p>
       <div class="dl-buttons mobile-margin-bottom-32">
-        <!-- TODO: Link -->
-        <a href="habitudes.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
+        <a href="habitudes.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/habitudes/id1500560167" class="appstore-habitudes"><img src="img/appstore.svg" alt="Download Habitudes on the App Store"></a>
       </div>
     </div>
     <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 348px;">
