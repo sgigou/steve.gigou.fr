@@ -99,6 +99,16 @@
     </div>
   </div>
   
+  <!-- Libs -->
+  <div class="grid-container block block-white">
+    <div class="grid-100 margin-top-64 margin-bottom-64">
+      <h2>Libraries</h2>
+      <h3>I create libs for your Swift applications.</h3>
+      <p class="margin-top-32">You can watch more on the <a href="libs.php">dedicated page</a>, <a href="https://github.com/sgigou">Github</a> or <a href="https://cocoapods.org/owners/45345">CocoaPods</a>.</p>
+    </div>
+  </div>
+  
+  <!-- Support -->
   <div class="grid-container block block-white">
     <div class="grid-100 margin-top-64">
       <h2>Support</h2>
