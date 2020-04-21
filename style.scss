@@ -30,6 +30,13 @@ $color-text-black-light: rgba(0,0,0,.50);
 $color-text-white-dark: #FFF;
 $color-text-white-light: rgba(255,255,255,.75);
 
+// Fonts
+
+@font-face {
+  font-family: "NF Code";
+  src: url("https://github.com/sgigou/NF-Code/releases/latest/download/NFCode-Regular.ttf") format("truetype");
+}
+
 // Mixins
 
 @mixin transition($transition...) {
@@ -297,7 +304,7 @@ img.full-width {
 }
 
 .code {
-  font-family: 'Inconsolata';
+  font-family: 'NF Code', 'Inconsolata';
 }
 
 @for $i from 0 through 10 {
