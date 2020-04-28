@@ -16,14 +16,15 @@
   <div class="grid-container margin-top-64 margin-bottom-64">
     <h1>Hi, I’m Steve!</h1>
     <p class="subtitle">
-      I create apps for iOS that are <strong>affordable</strong><br>
-      and crafted for <strong>your device</strong>.
+      I create affordable <a href="#rplife">iOS apps</a>,<br>
+      <a href="libs.php">libraries</a> for Swift<br>
+      and <a href="fonts.php">free fonts</a>.
     </p>
     <a href="https://apps.apple.com/us/developer/steve-gigou/id849144018">Follow me on the App Store</a>
   </div>
   
   <!-- RPLife -->
-  <div class="grid-container block block-blue">
+  <div id="rplife" class="grid-container block block-blue">
     <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 348px;">
       <img src="img/rplife-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px;">
     </div>
