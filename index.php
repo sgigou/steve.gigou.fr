@@ -103,12 +103,19 @@
       </div>
     </div>
 
-    <!-- Libs -->
-    <div class="grid-50 block block-white margin-top-0">
-      <div class="grid-100 margin-top-64 margin-bottom-64">
+    <!-- Libs & fonts -->
+    <div class="grid-100 grid-parent block block-white">
+      <!-- Libs -->
+      <div class="grid-50 margin-top-64 margin-bottom-64">
         <h2>Libraries</h2>
-        <h3>I create libs for your Swift applications.</h3>
+        <h3>For your Swift applications.</h3>
         <p class="margin-top-32"><a href="libs.php">Watch more</a></p>
+      </div>
+      <!-- Fonts -->
+      <div class="grid-50 margin-top-64 margin-bottom-64">
+        <h2>Fonts</h2>
+        <h3>Free and open source fonts.</h3>
+        <p class="margin-top-32"><a href="fonts.php">Watch more</a></p>
       </div>
     </div>
 
