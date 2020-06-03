@@ -37,6 +37,11 @@ $color-text-white-light: rgba(255,255,255,.75);
   src: url("https://github.com/sgigou/NF-Code/releases/latest/download/NFCode-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "NF Pixels";
+  src: url("https://github.com/sgigou/NF-Pixels/releases/latest/download/NFPixels-Regular.ttf") format("truetype");
+}
+
 // Mixins
 
 @mixin transition($transition...) {
@@ -252,9 +257,11 @@ img.example {
   border: 5px solid $color-bg-light;
   border-radius: 16px;
   box-sizing: border-box;
-  padding: 16px;
   width: 100%;
   margin: 8px 0;
+  &.padded {
+    padding: 16px 0;
+  }
 }
 
 // Classes
@@ -320,6 +327,10 @@ img.full-width {
 
 .font-code {
   font-family: 'NF Code';
+}
+
+.font-pixels {
+  font-family: "NF Pixels";
 }
 
 @for $i from 0 through 10 {
