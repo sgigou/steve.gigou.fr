@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    
+
 <head>
   <meta charset="utf-8">
   <?php include('head.php') ?>
@@ -8,9 +8,9 @@
 </head>
 
 <body class="light">
-  
+
   <?php include('header.php') ?>
-  
+
   <div class="grid-container margin-top-64 margin-bottom-32">
     <h1>I create libs for CocoaPods</h1>
     <p class="subtitle">
@@ -18,7 +18,7 @@
       and available <strong>immediately</strong>.
     </p>
   </div>
-  
+
   <div class="grid-container block block-white">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <h2 class="code margin-bottom-16">NoveCircularProgressBar</h2>
@@ -27,7 +27,7 @@
       <a href="https://cocoapods.org/pods/NoveCircularProgressBar"><img src="https://img.shields.io/cocoapods/v/NoveCircularProgressBar?logo=xcode&logoColor=white&style=for-the-badge" alt="View on CocoaPods"></a>
     </div>
   </div>
-  
+
   <div class="grid-container block block-white">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <h2 class="code margin-bottom-16">NoveLogger</h2>
@@ -36,7 +36,7 @@
       <a href="https://cocoapods.org/pods/NoveLogger"><img src="https://img.shields.io/cocoapods/v/NoveLogger?logo=xcode&logoColor=white&style=for-the-badge" alt="View on CocoaPods"></a>
     </div>
   </div>
-  
+
   <div class="grid-container block block-white">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <h2 class="code margin-bottom-16">NoveFeatherIcons</h2>
@@ -45,7 +45,7 @@
       <a href="https://cocoapods.org/pods/NoveFeatherIcons"><img src="https://img.shields.io/cocoapods/v/NoveFeatherIcons?logo=xcode&logoColor=white&style=for-the-badge" alt="View on CocoaPods"></a>
     </div>
   </div>
-  
+
   <div class="grid-container margin-top-64">
     <h2>Watch more</h2>
     <div class="grid-25 prefix-25 grid-parent margin-bottom-32">
@@ -71,8 +71,8 @@
       </a>
     </div>
   </div>
-  
+
   <?php include('footer-common.php') ?>
-  
+
 </body>
 </html>
