@@ -109,27 +109,6 @@
       </div>
     </div>
 
-    <!-- Soon -->
-    <div class="grid-100 block block-purple">
-      <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 268px;">
-        <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px ;">
-      </div>
-      <div class="grid-66">
-        <div class="app_title margin-top-64  margin-bottom-64 mobile-margin-bottom-32">
-          <h2 class="white">
-            <img src="img/novicon-question-mark@2x.png" alt="Unknown app icon" width="48" height="48">
-            Soon
-            <span>on iPhone</span>
-          </h2>
-          <h3 class="white">Overwhelmed by household chores?</h3>
-          <p class="white">There are good news for you coming soon…</p>
-        </div>
-      </div>
-      <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
-        <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width">
-      </div>
-    </div>
-
     <!-- Libs & fonts -->
     <div class="grid-100 grid-parent block block-white">
       <!-- Libs -->
