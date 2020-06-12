@@ -76,7 +76,7 @@
     </div>
   </div>
 
-  <?php include('footer-common.php') ?>
+  <?php include('footer-ibepo.php') ?>
   <?php include('js.php') ?>
 
 </body>
