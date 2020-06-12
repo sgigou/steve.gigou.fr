@@ -78,6 +78,9 @@ body {
   &.yellow {
     background: $color-yellow;
   }
+  &.gray {
+    background: $color-gray;
+  }
 }
 
 h1 {
@@ -170,7 +173,7 @@ header {
     font-weight: 500;
   }
   .right a { margin-left: 10px; }
-  .blue &, .yellow & {
+  .blue &, .yellow &, .gray & {
     border-bottom: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -192,7 +195,7 @@ footer {
       text-align: left
     }
   }
-  .blue &, .yellow & {
+  .blue &, .yellow &, .gray & {
     border-top: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -262,6 +265,12 @@ img.example {
   &.padded {
     padding: 16px 0;
   }
+}
+
+img.shadowed {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  border: 1px solid $color-bg-light;
+  border-radius: 16px;
 }
 
 // Classes
