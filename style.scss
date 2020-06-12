@@ -22,6 +22,7 @@ $color-blue: #007AFF;
 $color-orange: #FF9500;
 $color-purple: #AF52DE;
 $color-yellow: #FFCC01;
+$color-gray: #8e8e93;
 $color-bg-light: #F2F5F7;
 $color-separator-black: rgba(0,0,0,.25);
 $color-separator-white: rgba(255,255,255,.25);
@@ -253,7 +254,6 @@ footer {
 }
 
 img.example {
-  // box-shadow: 0 2px 4px rgba(0,0,0,0.25);
   border: 5px solid $color-bg-light;
   border-radius: 16px;
   box-sizing: border-box;
@@ -284,6 +284,9 @@ img.example {
   }
   &-yellow {
     background: $color-yellow;
+  }
+  &-gray {
+    background: $color-gray;
   }
 }
 
