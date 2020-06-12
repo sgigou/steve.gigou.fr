@@ -96,7 +96,7 @@
             <h2 class="white">
               <img src="img/ibepo-icon@2x.png" alt="iBépo icon" width="48" height="48" style="transform: translateY(-2px);">
               iBépo
-              <span>for iPhone & iPad</span>
+              <span>pour iPhone & iPad</span>
             </h2>
           </div>
         </a>
