@@ -82,24 +82,30 @@
       </div>
     </div>
 
-    <!-- Soon -->
-    <div class="grid-100 block block-purple">
-      <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 268px;">
-        <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; bottom: 0; left: 16px ;">
+    <!-- iBépo -->
+    <div id="rplife" class="grid-100 block block-gray">
+      <div class="grid-33 hide-on-mobile margin-top-32" style="position: relative; display: block; height: 348px;">
+        <img src="img/ibepo-home@2x.png" alt="RPLife capture" class="full-width" style="position: absolute; top: -32px; left: 16px;">
+      </div>
+      <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop margin-bottom-32">
+        <img src="img/ibepo-home@2x.png" alt="RPLife capture" class="full-width">
       </div>
       <div class="grid-66">
-        <div class="app_title margin-top-64  margin-bottom-64 mobile-margin-bottom-32">
-          <h2 class="white">
-            <img src="img/novicon-question-mark@2x.png" alt="Unknown app icon" width="48" height="48">
-            Soon
-            <span>on iPhone</span>
-          </h2>
-          <h3 class="white">Overwhelmed by household chores?</h3>
-          <p class="white">There are good news for you coming soon…</p>
+        <a class="undecored" href="ibepo.php">
+          <div class="app_title margin-top-64">
+            <h2 class="white">
+              <img src="img/ibepo-icon@2x.png" alt="iBépo icon" width="48" height="48" style="transform: translateY(-2px);">
+              iBépo
+              <span>pour iPhone & iPad</span>
+            </h2>
+          </div>
+        </a>
+        <h3 class="white"><span style="color: #81BDFF;">Le clavier</span> Bépo <span style="color: #FFB6B2;">sur iOS</span></h3>
+        <p class="white">Toute la force du Bépo<br>
+        optimisée sur vos appareils mobiles.</p>
+        <div class="dl-buttons mobile-margin-bottom-32">
+          <a href="ibepo.php" class="button-app">Watch more</a><a href="https://apps.apple.com/fr/app/id1509479154" class="appstore-ibepo"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
         </div>
-      </div>
-      <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
-        <img src="img/soon-home@2x.png" alt="RPLife capture" class="full-width">
       </div>
     </div>
 
