@@ -104,7 +104,7 @@
         <p class="white">Toute la force du Bépo<br>
         optimisée sur vos appareils mobiles.</p>
         <div class="dl-buttons mobile-margin-bottom-32">
-          <a href="rplife.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
+          <a href="ibepo.php" class="button-app">Watch more</a><a href="https://apps.apple.com/fr/app/id1509479154" class="appstore-ibepo"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
         </div>
       </div>
     </div>

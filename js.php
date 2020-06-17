@@ -16,6 +16,17 @@ window.cookieconsent.initialise({
 });
 </script>
 
+<!-- iBepo -->
+<script type="text/javascript">
+  var ibepoButtons = document.getElementsByClassName('appstore-ibepo');
+  var i;
+  for (i = 0; i < ibepoButtons.length; i++) {
+    ibepoButtons[i].addEventListener('click', function() {
+      fbq('trackCustom', 'AppStoreClick', {app: 'ibepo'});
+    }, false);
+  }
+</script>
+
 <!-- RPLife -->
 <script type="text/javascript">
   var rplifeButtons = document.getElementsByClassName('appstore-rplife');

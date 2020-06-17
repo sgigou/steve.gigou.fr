@@ -7,7 +7,7 @@
     </div>
     <div class="grid-25 list margin-bottom-16">
       <h4>Suivez iBépo</h4>
-      <p><a href="https://apps.apple.com/us/app/habitudes/id1500560167" class="appstore-habitudes">App Store</a></p>
+      <p><a href="https://apps.apple.com/fr/app/id1509479154" class="appstore-habitudes">App Store</a></p>
       <p><a href="https://www.facebook.com/HabitudesApp">Facebook</a></p>
     </div>
     <div class="grid-25 list margin-bottom-16">
