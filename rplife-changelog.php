@@ -8,16 +8,33 @@
 </head>
 
 <body class="light">
-  
+
   <?php
     include('header.php')
   ?>
-  
+
   <div class="grid-container margin-top-32 margin-bottom-32">
     <h1>Changelog</h1>
     <p class="subtitle margin-bottom-0">RPLife</p>
   </div>
-    
+
+  <div class="grid-container text-block block block-white margin-bottom-64">
+    <div class="grid-100 margin-top-32 margin-bottom-32">
+      <div class="app_title">
+        <h2>v1.3.1 <span>— 02/07/2020</span></h2>
+        <h3 id="Improved">Improved</h3>
+        <ul>
+          <li>Better UX with direct access to creation buttons.</li>
+          <li>Improved manual sorting of skills and tasks.</li>
+          <li>You can now end a project directly from its page when all tasks are done.</li>
+        </ul>
+        <h3 id="Technical">Technical</h3>
+        <ul>
+          <li>Improved progress bar for projects.</li>
+        </ul>
+    </div>
+  </div>
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -40,7 +57,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -58,7 +75,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -76,7 +93,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -93,7 +110,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -106,7 +123,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -120,7 +137,7 @@
       </ul>
     </div>
   </div>
-    
+
   <div class="grid-container text-block block block-white margin-bottom-64">
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
@@ -134,9 +151,9 @@
       </ul>
     </div>
   </div>
-    
+
   <?php include('footer-rplife.php') ?>
   <?php include('js.php') ?>
-  
+
 </body>
 </html>
