@@ -22,16 +22,17 @@
     <div class="grid-100 margin-top-32 margin-bottom-32">
       <div class="app_title">
         <h2>v1.3.1 <span>— 02/07/2020</span></h2>
-        <h3 id="Improved">Improved</h3>
-        <ul>
-          <li>Better UX with direct access to creation buttons.</li>
-          <li>Improved manual sorting of skills and tasks.</li>
-          <li>You can now end a project directly from its page when all tasks are done.</li>
-        </ul>
-        <h3 id="Technical">Technical</h3>
-        <ul>
-          <li>Improved progress bar for projects.</li>
-        </ul>
+      </div>
+      <h3 id="Improved">Improved</h3>
+      <ul>
+        <li>Better UX with direct access to creation buttons.</li>
+        <li>Improved manual sorting of skills and tasks.</li>
+        <li>You can now end a project directly from its page when all tasks are done.</li>
+      </ul>
+      <h3 id="Technical">Technical</h3>
+      <ul>
+        <li>Improved progress bar for projects.</li>
+      </ul>
     </div>
   </div>
 
