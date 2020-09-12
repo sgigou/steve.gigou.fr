@@ -22,6 +22,7 @@ $color-blue: #007AFF;
 $color-orange: #FF9500;
 $color-purple: #AF52DE;
 $color-yellow: #FFCC01;
+$color-green: #34C759;
 $color-gray: #8e8e93;
 $color-bg-light: #F2F5F7;
 $color-separator-black: rgba(0,0,0,.25);
@@ -69,18 +70,11 @@ body {
   text-align: center;
   line-height: $size-lh-3;
   color: $color-text-black-light;
-  &.light {
-    background: $color-bg-light;
-  }
-  &.blue {
-    background: $color-blue;
-  }
-  &.yellow {
-    background: $color-yellow;
-  }
-  &.gray {
-    background: $color-gray;
-  }
+  &.light { background: $color-bg-light; }
+  &.blue { background: $color-blue; }
+  &.yellow { background: $color-yellow; }
+  &.gray { background: $color-gray; }
+  &.green { background: $color-green; }
 }
 
 h1 {
@@ -173,7 +167,7 @@ header {
     font-weight: 500;
   }
   .right a { margin-left: 10px; }
-  .blue &, .yellow &, .gray & {
+  .blue &, .yellow &, .gray &, .green & {
     border-bottom: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -195,7 +189,7 @@ footer {
       text-align: left
     }
   }
-  .blue &, .yellow &, .gray & {
+  .blue &, .yellow &, .gray &, .green & {
     border-top: 1px solid $color-separator-white;
     color: $color-text-white-light;
     a {
@@ -282,21 +276,12 @@ img.shadowed {
     border-radius: 5px;
   }
 
-  &-white {
-    background: white;
-  }
-  &-blue {
-    background: $color-blue;
-  }
-  &-purple {
-    background: $color-purple;
-  }
-  &-yellow {
-    background: $color-yellow;
-  }
-  &-gray {
-    background: $color-gray;
-  }
+  &-white { background: white; }
+  &-blue { background: $color-blue; }
+  &-green { background: $color-green; }
+  &-purple { background: $color-purple; }
+  &-yellow { background: $color-yellow; }
+  &-gray { background: $color-gray; }
 }
 
 a.button-app {
