@@ -88,7 +88,7 @@
         <img src="img/majordome-home@2x.png" alt="Majordome capture" class="full-width" style="position: absolute; bottom: 0; left: 16px;">
       </div>
       <div class="grid-66">
-        <a class="undecored" href="rplife.php">
+        <a class="undecored" href="majordome.php">
           <div class="app_title margin-top-64">
             <h2 class="white">
               <img src="img/majordome-icon@2x.png" alt="Majordome icon" width="48" height="48" style="transform: translateY(-2px);">
@@ -101,11 +101,11 @@
         <p class="white">Keep your house<br>
         clean and welcoming.</p>
         <div class="dl-buttons mobile-margin-bottom-32">
-          <a href="rplife.php" class="button-app">Watch more</a><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife"><img src="img/appstore.svg" alt="Download RPLife on the App Store"></a>
+          <a href="majordome.php" class="button-app">Watch more</a><a href="https://apps.apple.com/fr/app/id1522890886" class="appstore-majordome"><img src="img/appstore.svg" alt="Download Majordome on the App Store"></a>
         </div>
       </div>
       <div class="mobile-grid-70 mobile-prefix-15 hide-on-desktop">
-        <img src="img/rplife-home@2x.png" alt="RPLife capture" class="full-width">
+        <img src="img/majordome-home@2x.png" alt="Majordome capture" class="full-width">
       </div>
     </div>
 
