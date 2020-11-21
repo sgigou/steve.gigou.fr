@@ -2,12 +2,12 @@
   <div class="grid-100 grid-parent">
     <div class="grid-25 list margin-bottom-16">
       <h4>Informations</h4>
-      <p><a href="rplife-changelog.php">Changelog</a></p>
+      <p><a href="https://apps.apple.com/us/app/id1468074490">Changelog</a></p>
       <p><a href="rplife-privacy.php">Privacy policy</a></p>
     </div>
     <div class="grid-25 list margin-bottom-16">
       <h4>Follow RPLife</h4>
-      <p><a href="https://apps.apple.com/us/app/rplife/id1468074490" class="appstore-rplife">App Store</a></p>
+      <p><a href="https://apps.apple.com/us/app/id1468074490" class="appstore-rplife">App Store</a></p>
       <p><a href="https://www.facebook.com/RPLifeApp">Facebook</a></p>
     </div>
     <div class="grid-25 list margin-bottom-16">
